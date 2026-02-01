@@ -10,7 +10,8 @@ All documents are served via GitHub Pages for transparency and easy access by ap
 
 | Project | Document | Status |
 | :--- | :--- | :--- |
-| **LinkFreeze** | [Privacy Policy](./linkfreeze.md) | Active |
+| **popcard** | [Privacy Policy](./popcard.md) | Active |
+| **linkfreeze** | [Privacy Policy](./linkfreeze.md) | Active |
 
 ## Compliance
 These policies are written to comply with:
