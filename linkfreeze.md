@@ -1,26 +1,28 @@
 # Privacy Policy for LinkFreeze
 
-**Last Updated:** February 1, 2026
+**Last Updated:** February 5, 2026
 
 ## 1. Overview
 LinkFreeze is a browser extension designed to help users select text within hyperlinks without triggering navigation. This Privacy Policy explains how the extension handles information.
 
 ## 2. Data Collection
-**LinkFreeze does not collect, store, or transmit any personal data.**
-* **No User Data:** We do not collect names, email addresses, or any personal identifiers.
-* **No Browsing History:** We do not track the websites you visit or your browsing behavior.
-* **No Usage Analytics:** We do not use third-party analytics (like Google Analytics) to track how you use the extension.
+LinkFreeze is built with a privacy-first approach.
+* **Extension Usage:** The extension itself does not collect, store, or transmit any personal data or browsing history. All processing occurs locally on your device.
+* **Store Analytics:** We use **GA4** (**Google Analytics 4**) exclusively on the Chrome Web Store listing page to understand how users find the extension. This provides aggregate, anonymous data (such as country of origin or referral source) and does not identify individual users.
 
 ## 3. Data Processing
-All processing of web pages occurs locally on your device. LinkFreeze modifies the Document Object Model (DOM) of the current page only when triggered by the user (via shortcut or context menu) to enable text selection. This data never leaves your computer.
+All processing of web pages occurs locally on your device. LinkFreeze modifies the **DOM** (**Document Object Model**) of the current page only when triggered by the user to enable text selection. This data never leaves your computer.
 
-## 4. Third-Party Access
-Since no data is collected, no data is ever shared with, sold to, or accessible by third parties.
+## 4. Third-Party Services
+We use **GA4** (**Google Analytics 4**) to monitor the performance of our Chrome Web Store page. 
+* No **PII** (**Personally Identifiable Information**) is collected.
+* IP addresses are anonymized by Google's systems before storage.
+* This tracking is strictly limited to the Web Store page and does not follow your activity across the web or inside the extension's execution environment.
 
 ## 5. Permissions Justification
-* **`host_permissions` (`<all_urls>`):** Required to access and temporarily modify hyperlinks on web pages you visit, enabling text selection without navigation.
-* **`contextMenus`:** Required to provide the "Bypass link to select text" option via the right-click menu.
-* **`storage`:** Required to save your local preferences (custom keyboard shortcuts, enable/disable state, and excluded domains).
+* **`host_permissions` (`<all_urls>`)**: Required to access and temporarily modify hyperlinks on web pages you visit, enabling text selection without navigation.
+* **`contextMenus`**: Required to provide the "Bypass link to select text" option via the right-click menu.
+* **`storage`**: Required to save your local preferences (custom keyboard shortcuts, enable/disable state, and excluded domains).
 
 ## 6. Contact
 If you have any questions about this Privacy Policy, you can contact the developer by opening an issue on the official GitHub repository: https://github.com/nessid/LinkFreeze
