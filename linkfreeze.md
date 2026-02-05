@@ -25,7 +25,7 @@ We use **GA4** (**Google Analytics 4**) to monitor the performance of our Chrome
 * **`storage`**: Required to save your local preferences (custom keyboard shortcuts, enable/disable state, and excluded domains).
 
 ## 6. Contact
-If you have any questions about this Privacy Policy, you can contact the developer by opening an issue on the official GitHub repository: https://github.com/nessid/LinkFreeze
+If you have any questions about this Privacy Policy, you can contact the developer by opening an issue on the official public repository for policies: https://github.com/nessid/privacy-policies
 
 ## 7. Changes to This Policy
 We reserve the right to update this policy. Any changes will be reflected by the "Last Updated" date at the top of this document.
