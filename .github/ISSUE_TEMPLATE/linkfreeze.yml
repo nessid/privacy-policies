@@ -1,0 +1,11 @@
+name: LinkFreeze – Contact
+description: Contact regarding the LinkFreeze extension
+labels:
+  - extension-linkfreeze
+body:
+  - type: textarea
+    attributes:
+      label: Message
+      description: Please describe your request or issue
+    validations:
+      required: true
