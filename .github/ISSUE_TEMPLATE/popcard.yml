@@ -1,0 +1,11 @@
+name: Popcard – Contact
+description: Contact regarding the Popcard extension
+labels:
+  - extension-popcard
+body:
+  - type: textarea
+    attributes:
+      label: Message
+      description: Please describe your request or issue
+    validations:
+      required: true
